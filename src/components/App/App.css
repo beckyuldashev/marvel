@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:wght@400;700&display=swap');
+
+:root {
+  --clr-sky: #3199dc;
+  --clr-dark: #222;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  scrollbar-color: var(--clr-sky)  var(--clr-dark);
+  scrollbar-width: thin;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--clr-sky);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  height: 10px;
+  background-color: var(--clr-dark);
+}
+
+
+
+
+body {
+  background-color: var(--clr-dark);
+  font-family: 'Marvel', sans-serif;
+  color: #f1f1f1;
+  min-height: 200vh;
+}
