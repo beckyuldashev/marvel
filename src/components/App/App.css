@@ -3,6 +3,7 @@
 :root {
   --clr-sky: #3199dc;
   --clr-dark: #222;
+  --clr-light: #f8f9fa;
 }
 
 *, *::before, *::after {
@@ -32,12 +33,12 @@
   background-color: var(--clr-dark);
 }
 
-
-
-
 body {
-  background-color: var(--clr-dark);
   font-family: 'Marvel', sans-serif;
-  color: #f1f1f1;
-  min-height: 200vh;
+  line-height: 1.7;
+  background-color: var(--clr-dark);
+}
+
+img {
+  max-width: 100%;
 }
