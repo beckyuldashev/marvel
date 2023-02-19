@@ -1,5 +1,4 @@
 import Comics from '../Comics';
-
 import './App.css';
 
 class App {

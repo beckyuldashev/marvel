@@ -1,0 +1,17 @@
+.error__container {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.error__content {
+  width: min(50ch, 90%);
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: var(--clr-light);
+  text-align: center;
+}
+
+.error__text {
+  font-size: 1.25rem;
+}
