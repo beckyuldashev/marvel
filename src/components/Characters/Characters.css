@@ -50,36 +50,3 @@
   right: 1rem;
   background-image: url('./img/close-white.svg');
 }
-
-
-/* .characters__container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  backdrop-filter: blur(.5rem);
-}
-
-.characters__list {
-  position: fixed;
-  inset: 0;
-  width: min(1200px, 80%);
-  height: 600px;
-  margin: auto;
-  padding: 20px;
-
-  display: flex;
-  flex-wrap: wrap;
-
-  overflow-y: auto;
-  background-color: var(--clr-light);
-}
-
-.characters__item {}
-
-.characters__img {
-  width: 100%;
-}
-
-.characters__name {} */

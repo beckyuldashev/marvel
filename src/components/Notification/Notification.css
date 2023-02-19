@@ -1,0 +1,22 @@
+.notification__container {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  column-gap: 1rem;
+
+  background-color: var(--clr-light);
+}
+
+.notification__text {
+  font-size: 1.25rem;
+}
+
+.notification__close {
+  width: 20px;
+  height: 20px;
+  background-image: url('./img/close-black.svg');
+}

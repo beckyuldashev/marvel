@@ -49,7 +49,14 @@ class Comics {
     });
 
     document.addEventListener('click', e => {
-      if(e.target.classList.contains('close-modal')) {
+      if(e.target.classList.contains('modal-close') || e.target.classList.contains('modal-overlay')) {
+        ROOT_MODAL.innerHTML = '';
+      }
+    });
+
+
+    document.addEventListener('keydown', e => {
+      if(e.code === 'Escape') {
         ROOT_MODAL.innerHTML = '';
       }
     });
