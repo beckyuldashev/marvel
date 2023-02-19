@@ -11,3 +11,7 @@
 - Parcel
 - Axios
 - Marvel API
+
+![preview](./marvel.jpg "Превью проекта")
+
+[VK - Beck](https://vk.com/beckyuldashev)
