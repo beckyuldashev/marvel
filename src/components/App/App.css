@@ -4,6 +4,8 @@
   --clr-sky: #3199dc;
   --clr-dark: #222;
   --clr-light: #f8f9fa;
+
+  --box-shadow: 0 2px 24px rgba(168, 175, 196, .5);
 }
 
 *, *::before, *::after {
@@ -59,4 +61,11 @@ img {
   border: none;
   outline: none;
   cursor: pointer;
+  background-color: transparent;
+}
+
+:global(.bg-contain) {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }

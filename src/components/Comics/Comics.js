@@ -1,8 +1,9 @@
 import { API_URL, URL_COMICS, URL_CHARACTERS, IMG_SIZES, IMAGE_NOT_AVAILABLE } from '../../constants/api';
 import { getDataApi } from '../../utils/getDataApi';
-import { ROOT_INDEX } from '../../constants/root';
+import { ROOT_INDEX, ROOT_MODAL } from '../../constants/root';
 
 import Error from '../Error';
+import Characters from '../Characters';
 
 import classes from './Comics.css';
 
@@ -43,8 +44,14 @@ class Comics {
   eventListener() {
     document.querySelectorAll('.comics__item').forEach(item => {
       item.addEventListener('click', (e) => {
-        const uri = item.dataset.uri;
+        Characters.render(item.dataset.uri);
       });
+    });
+
+    document.addEventListener('click', e => {
+      if(e.target.classList.contains('close-modal')) {
+        ROOT_MODAL.innerHTML = '';
+      }
     });
 
   }
